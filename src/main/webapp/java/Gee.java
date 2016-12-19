@@ -11,6 +11,6 @@ public class Gee extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //super.doPost(req, resp);
-        resp.getWriter().println("<h1>Sample Git Project</h1>");
+        resp.getWriter().println("<h1>This is Branched btwo</h1>");
     }
 }
