@@ -101,6 +101,10 @@
     <servlet-class>org.apache.cocoon.servletservice.DispatcherServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
+  <servlet>
+    <servlet-name>gee</servlet-name>
+    <servlet-class>Gee</servlet-class>
+  </servlet>
 
   <!-- URL space mappings ============================================= -->
 
@@ -113,6 +117,10 @@
   <servlet-mapping>
     <servlet-name>DispatcherServlet</servlet-name>
     <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gee</servlet-name>
+    <url-pattern>/Gee</url-pattern>
   </servlet-mapping>
 
 </web-app>
